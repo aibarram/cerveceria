@@ -1,0 +1,121 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "067d3b2e6fc4c757b0f3f615d71c3687",
+    "packages": [
+        {
+            "name": "qcubed/composer",
+            "version": "v1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/qcubed/composer.git",
+                "reference": "0c6dfd90d3051d1b885702ab91f91fe4b5d7826f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/qcubed/composer/zipball/0c6dfd90d3051d1b885702ab91f91fe4b5d7826f",
+                "reference": "0c6dfd90d3051d1b885702ab91f91fe4b5d7826f",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "QCubed\\Composer\\InstallerPlugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "QCubed\\Composer\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Installer plugin for the QCubed framework.",
+            "keywords": [
+                "composer",
+                "install",
+                "qcubed"
+            ],
+            "time": "2017-01-19T23:35:39+00:00"
+        },
+        {
+            "name": "qcubed/qcubed",
+            "version": "v3.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/qcubed/qcubed.git",
+                "reference": "9695e476bcad2387a5356d430b439822f935ac6f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/qcubed/qcubed/zipball/9695e476bcad2387a5356d430b439822f935ac6f",
+                "reference": "9695e476bcad2387a5356d430b439822f935ac6f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "qcubed/composer": "^1.0.5"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "^0.3.2",
+                "phpunit/phpunit": "4.8.*"
+            },
+            "suggest": {
+                "ezyang/htmlpurifier": "dev-master",
+                "fortawesome/font-awesome": "^4.6",
+                "predis/predis": "^1.1"
+            },
+            "type": "qcubed-framework",
+            "extra": {
+                "writePermission": [
+                    "project/generated",
+                    "project/generated/connector_base",
+                    "project/generated/drafts",
+                    "project/generated/drafts/panels",
+                    "project/generated/form_base",
+                    "project/generated/model_base",
+                    "project/includes/connector",
+                    "project/includes/model",
+                    "project/tmp",
+                    "project/forms",
+                    "project/includes/dialog",
+                    "project/includes/panel",
+                    "project/includes/configuration/codegen_options.json"
+                ]
+            },
+            "autoload": {
+                "psr-4": {
+                    "QCubed\\Devtools\\": "includes/_devtools/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "QCubed is a PHP framework for rapid web development. Building on top of jQuery, with OOP at its core, QCubed provides a powerful solution for building database-driven Web 2.0 applications.",
+            "homepage": "http://qcu.be/",
+            "keywords": [
+                "framework",
+                "jquery",
+                "php"
+            ],
+            "time": "2017-07-08T05:43:00+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.4.0"
+    },
+    "platform-dev": []
+}
